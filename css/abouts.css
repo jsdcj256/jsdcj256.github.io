@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* 基本样式 */
+body{margin:0;padding:0;font-size:12px;color:#898989;font-family:Arial,"微软雅黑";}
+/* 文档清零 */
+div,ul,li,p,h1,h2,h3,h4,h5,h6,input,dl,dd,dt{margin:0;padding:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;border:none;color:#666;}
+img{border:none;}
+
+
+/******************************这是网页的导航*******************************/
+#nav-{width:auto;height:146px;background:#e7e7e7;}
+#nav {width:1000px;height:138px;margin:0 auto;} 
+#logo{margin-top:48px;margin-left:7px;float:left;}
+.shu{float:right;}
+#nav .daohang{width:300px;height:93px;background:url(images/daohang.png) no-repeat center bottom;margin-left:163px;}
+#nav .daohang li{float:left;margin:73px 0px 4px;}
+ li a{font-size:14px;color:#898989;margin-right:25px;}
+ li a:hover{color:#363636;} 
+ #shouye a{margin-left:15px;}
+ #lianxi a{margin-right:0;}
+ #guanyu a{color:#363636;}
+ #xian{width:auto;height:3px;background:#e7e7e7;clear:both;border-top:1px solid #737373;}
+
+.zzsc a.thisclass{color:#363636;}
+
+/******************************这是网页的主题*******************************/
+#main{width:auto;min-height:1330px;background:#171717;}
+.aboutme{width:1000px;height:63px;margin:0 auto;border-bottom:1px solid #262626;}
+.aboutme img{padding-top:30px;}
+.aboutme p{color:#656565;float:right;padding-top:35px;}
+.aboutme span{color:#dad7d7;}
+.content{width:912px;height:1280px;margin:0 auto;}
+.content1{padding-top:50px;}
+.content1 p{text-indent:3em;line-height:26px;}
+.main2 img{display:block;padding-top:60px;padding-left:90px;}
+.content2{padding-top:40px;}
+.content2 p{text-indent:3em;line-height:26px;}
+.main3 img{display:block;padding-top:60px;padding-left:90px;}
+.content3{padding-top:40px;}
+.content3 p{text-indent:3em;line-height:26px;}
+
+/******************************这是网页的版权所有*******************************/
+#footer{width:auto;min-height:135px;background:#E7AA6E;}
+#footer{width:auto;height:135px;background:#D08586;background:url(../images/footer.png) repeat-x;clear:both}
+#copyright{width:1000px;height:135px;margin:0 auto;position:relative;}
+#erweima img{position:absolute;top:-8px;display:block;float:left;}
+#copyright p{font-size:10px;color:#979898;padding-top:65px;padding-left:188px;float:left;}
+#conter{width:130px;height:135px;float:right;padding-top:50px;}
+#conter img{margin-left:13px;}

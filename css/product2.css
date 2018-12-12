@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* 基本样式清零 */
+body,a{margin:0;padding:0;font-size:12px;color:#898989;font-family:Arial,"微软雅黑";}
+/* 文档清零 */
+div,ul,li,p,h1,h2,h3,h4,h5,h6,input,dl,dd,dt{margin:0;padding:0;}
+ul,li{list-style:none;}
+a{text-decoration:none;border:none;color:#666;}
+img{border:none;}
+
+
+
+/******************************这是网页的导航*******************************/
+#nav-{width:auto;height:150px;background:#e7e7e7;}
+#nav {width:1000px;height:138px;margin:0 auto;position:relative;} 
+#logo{margin-top:48px;margin-left:7px;float:left;}
+.danhangtu{position:absolute;z-index:100;left:770px;}
+#nav .daohang{width:300px;height:93px;background:url(images/daohang.png) no-repeat center bottom;margin-left:163px;}
+#nav .daohang li{float:left;margin:73px 0px 4px;}
+ li a{font-size:14px;color:#898989;margin-right:25px;}
+ li a:hover{color:#363636;} 
+ #shouye a{margin-left:15px;}
+ #chanpin a{color:#363636;}
+ #lianxi a{margin-right:0;}
+ #xian{width:auto;height:5px;background:#e7e7e7;clear:both;border-top:3px solid #737373;}
+
+.zzsc a.thisclass{color:#363636;}
+/******************************这是网页的主题部分*******************************/
+#main{width:auto;min-height:4930px;background:#171717;}
+.content{width:1000px;height:4930px;margin:0 auto;}
+
+.aboutme{width:1000px;height:60px;margin:0 auto;border-bottom:1px solid #262626;}
+.aboutme img{padding-top:30px;}
+.aboutme p{color:#656565;float:right;padding-top:35px;}
+.aboutme span{color:#dad7d7;}
+
+.wenzi{width:1000px;min-height:600px;margin:50px auto 0;}
+.wenzi b{display:block;font-size:26px;color:#bebcbc;text-align:center;}
+.wenzi p{line-height:20px;margin-top:15px;text-align:center;}
+.tu1{display:block;margin:40px auto 0;}
+.tu2{margin-top:60px;}
+.tu3{margin-top:50px;}
+.content .anniu{width:80px;height:30px;margin: 0 auto;margin-top:-40px;}
+.anniu li{float:left;margin-left:10px;width:30px;height:30px;position:relative;}
+.hover{position:absolute;top:0;left:0;display:none;}
+.anniu li:hover .hover{display:inline-block;}
+
+
+
+/******************************这是网页的版权所有*******************************/
+#footer{width:auto;height:135px;background:#E7AA6E;}
+#footer{width:auto;height:135px;background:#D08586;background:url(../images/footer.png) repeat-x;clear:both}
+#copyright{width:1000px;height:135px;margin:0 auto;position:relative;}
+#erweima img{position:absolute;top:-8px;display:block;float:left;}
+#copyright p{font-size:10px;color:#979898;padding-top:65px;padding-left:188px;float:left;}
+#conter{width:130px;height:135px;float:right;padding-top:50px;}
+#conter img{margin-left:13px;}
+
+
+
